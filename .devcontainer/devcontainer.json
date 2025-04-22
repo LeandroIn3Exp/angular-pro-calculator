@@ -1,0 +1,29 @@
+{
+	"name": "Node.js & TypeScript",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"features": {
+	  "ghcr.io/devcontainers-extra/features/angular-cli:2": {
+		"version": "18"
+	  }
+	},
+	"customizations": {
+	  "vscode": {
+		"extensions": [
+		  "Angular.ng-template",
+		  "johnpapa.Angular2",
+		  "cyrilletuzi.angular-schematics",
+		  "natewallace.angular2-inline",
+		  "formulahendry.auto-close-tag",
+		  "formulahendry.auto-rename-tag",
+		  "WallabyJs.console-ninja",
+		  "usernamehw.errorlens",
+		  "quicktype.quicktype",
+		  "EditorConfig.EditorConfig",
+		  "aaron-bond.better-comments",
+		  "formulahendry.terminal",
+		  "bradlc.vscode-tailwindcss"
+		]
+	  }
+	}
+  }
+  
