@@ -30,7 +30,7 @@ RUN su node -c "source /usr/local/share/nvm/nvm.sh && \
     npm install -g @angular/cli@18"
 
 # Configura variables de entorno para Chromium
-ENV CHROMIUM_BIN=/usr/bin/chromium
+ENV CHROME_BIN=/usr/bin/chromium
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 # Expone el puerto 4200 (Angular CLI)
 EXPOSE 4200
