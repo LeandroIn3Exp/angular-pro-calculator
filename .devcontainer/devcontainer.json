@@ -1,0 +1,28 @@
+{
+	"name": "Node.js & TypeScript",
+	"build": {
+    "dockerfile": "../Dockerfile"
+  },
+	"features": {
+	  "ghcr.io/devcontainers-extra/features/angular-cli:2": {
+		"version": "18"
+	  }
+	},
+	"customizations": {
+	  "vscode": {
+		"extensions": [
+		  "Angular.ng-template",
+		  "johnpapa.Angular2",
+		  "cyrilletuzi.angular-schematics",
+		  "natewallace.angular2-inline",
+		  "formulahendry.auto-close-tag",
+		  "formulahendry.auto-rename-tag",
+		  "usernamehw.errorlens",
+		  "quicktype.quicktype",
+		  "EditorConfig.EditorConfig",
+		  "aaron-bond.better-comments",
+		  "bradlc.vscode-tailwindcss"
+		]
+	  }
+	}
+  }
